@@ -1,0 +1,18 @@
+{
+    "name": "db-test",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "^1.2.0",
+        "drizzle-kit": "^0.30.2",
+        "tsx": "^4.19.2"
+    },
+    "peerDependencies": {
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "@neondatabase/serverless": "^0.10.4",
+        "dotenv": "^16.4.7",
+        "drizzle-orm": "^0.38.4"
+    }
+}
